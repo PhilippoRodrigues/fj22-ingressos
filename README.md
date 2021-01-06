@@ -1,6 +1,6 @@
 # Project Setup
 
-<p>Projeto Spring boot de um site de venda de ingressos, desenvolvido no curso da Caelum.</p>
+<p>Spring boot project for a movie ticket sales website using Java programming language.</p>
 
 ## Jetty
 
