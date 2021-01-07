@@ -7,4 +7,8 @@
 ### Maven run Jetty
 ```
 package jetty:run
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> work
