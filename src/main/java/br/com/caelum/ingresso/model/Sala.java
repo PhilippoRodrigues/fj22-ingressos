@@ -20,6 +20,7 @@ import javax.persistence.OneToMany;
 /**
  * Created by nando on 03/03/17.
  */
+
 @Entity
 public class Sala {
 
@@ -29,36 +30,6 @@ public class Sala {
 
     private String nome;
     
-<<<<<<< HEAD
-//    private BigDecimal preco = BigDecimal.ZERO;
-
-    @OneToMany(fetch = FetchType.EAGER)
-    private Set<Lugar> lugares = new HashSet<>();
-
-    /**
-     * @deprecated hibernate only
-     */
-    public Sala() {
-
-    }
-
-    public Sala(String nome, BigDecimal preco) {
-        this.nome = nome;
-//        this.preco = preco;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-//    public BigDecimal getPreco() {
-//		return preco.setScale(2, RoundingMode.HALF_UP);
-//	}
-//
-//	public void setPreco(BigDecimal preco) {
-//		this.preco = preco;
-//	}
-=======
     private BigDecimal preco = BigDecimal.ZERO;
 
     @OneToMany(fetch = FetchType.EAGER)
@@ -87,7 +58,6 @@ public class Sala {
 	public void setPreco(BigDecimal preco) {
 		this.preco = preco;
 	}
->>>>>>> refs/remotes/origin/master
 
 	public void setId(Integer id) {
         this.id = id;
