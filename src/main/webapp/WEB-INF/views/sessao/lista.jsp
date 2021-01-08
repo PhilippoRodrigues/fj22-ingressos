@@ -15,6 +15,7 @@
                 <th>Horário</th>
                 <th>Filme</th>
                 <th>Duração</th>
+<<<<<<< HEAD
 <!--                  <th>Preço</th> -->
 
                 <th colspan="2" class="text-center">Ações</th>
@@ -27,6 +28,20 @@
                     <td>${sessao.filme.nome}</td>
                     <td>${sessao.filme.duracao.toMinutes()}</td>
 <%--                     <td>${sessao.preco}</td> --%>
+=======
+                 <th>Preço</th>
+
+                <th colspan="2" class="text-center">Ações</th>
+            </tr>
+            </thead>
+            <tbody>
+            <c:forEach var="sessao" items="${sessoes}">
+                <tr>
+                    <td>${sessao.horario}</td>
+                    <td>${sessao.filme.nome}</td>
+                    <td>${sessao.filme.duracao.toMinutes()}</td>
+                    <td>${sessao.preco}</td>
+>>>>>>> refs/remotes/origin/master
 
                     <td>
                         <a onclick="excluir(${sessao.id})" class="btn btn-danger">Excluir</a>

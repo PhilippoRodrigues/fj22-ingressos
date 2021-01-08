@@ -10,6 +10,7 @@
             <thead>
             <tr>
                 <th class="text-center">Nome</th>
+<<<<<<< HEAD
 <!-- 	       <th class="text-center">Preço</th>	  -->
                 <th colspan="4" class="text-center">Ações</th>
             </thead>
@@ -18,6 +19,16 @@
                 <tr>
                     <td class="text-center">${sala.nome}</td>
 <%-- 		   <td class="text-center">${sala.preco}</td> --%>
+=======
+	       <th class="text-center">Preço</th>	 
+                <th colspan="4" class="text-center">Ações</th>
+            </thead>
+            <tbody>
+            <c:forEach var="sala" items="${salas}">
+                <tr>
+                    <td class="text-center">${sala.nome}</td>
+		   <td class="text-center">${sala.preco}</td>
+>>>>>>> refs/remotes/origin/master
                     <td class="col-md-1">
                         <a href="/admin/sala/${sala.id}/sessoes/" class="btn btn-primary">
                             <span class="glyphicon glyphicon-blackboard" aria-hidden="true"></span> Sessões

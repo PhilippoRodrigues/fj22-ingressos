@@ -28,7 +28,11 @@
 
 	<bean id="mysqlDS" class="org.apache.commons.dbcp.BasicDataSource">
 		<property name="username" value="root"/>
+<<<<<<< HEAD
 		<property name="password" value="rootroot"/>
+=======
+		<property name="password" value=""/>
+>>>>>>> refs/remotes/origin/master
 		<property name="url" value="jdbc:mysql://localhost/ingresso?createDatabaseIfNotExist=true&amp;useSSL=false"/>
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
 	</bean>
