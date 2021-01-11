@@ -30,6 +30,7 @@ public class SalaForm {
         this.salaId = sala.getId();
         this.nome = sala.getNome();
         this.lugares = new ArrayList<>(sala.getLugares());
+        this.preco = sala.getPreco();
     }
 
     public Integer getSalaId() {
