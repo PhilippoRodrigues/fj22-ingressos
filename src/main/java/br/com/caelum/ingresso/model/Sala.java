@@ -17,10 +17,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
-/**
- * Created by nando on 03/03/17.
- */
-
 @Entity
 public class Sala {
 
