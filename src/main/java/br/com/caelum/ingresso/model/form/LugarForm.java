@@ -5,14 +5,13 @@ import org.hibernate.validator.constraints.NotBlank;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * Created by nando on 03/03/17.
- */
 public class LugarForm {
     @NotBlank
     private String fileira;
+
     @NotNull
     private Integer posicao;
+    
     private Integer salaId;
 
     public String getFileira() {
